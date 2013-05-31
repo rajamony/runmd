@@ -7,3 +7,4 @@ run :
 	rm -f unhappy
 	OMP_NUM_THREADS=16 mpirun -np 1 ./mpidriver/driver -d -t memory -o "-n2 -r100000"
 
+
